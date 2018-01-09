@@ -183,7 +183,7 @@ MODELO Y CONTROLADOR
 -productos.modelo.php
 -Se hace inclusion de los controladores y modelos en index.php
 
-/*=====  End of Section comment block  ======*/
+/*===========*/
 /*=============================================
 CABEZOTE.PHP traer categorias desde base de datos
 =============================================*/
@@ -194,4 +194,33 @@ CABEZOTE.PHP traer categorias desde base de datos
 ***3 Enlazar parametros
 
 
-/*=====  End of Section comment block  ======*/
+/*===========*/
+/*============================================
+SISTEMA DE URL AMIGABLE
+=============================================*/
+-CREAR frontend/.htaccess
+crear codigo de rewrite para urls
+
+
+-Crear archivo modelos/rutas.php
+//se modifica cuando se suba al SERVIDOR
+
+-index.php require_once "modelos/rutas.php";
+-plantilla.php: generar explode para separa la ruta amigable
+-
+
+/*===========*/
+/*=============================================
+LISTA BLANCA DE URLS AMIGABLES
+=============================================*/
+-
+/*=====  ======*/
+-Crear modelos/productos.php
+error404.php
+/*=============================================
+SLIDE.PHP
+=============================================*/
+
+
+
+/*=====   ======*/
